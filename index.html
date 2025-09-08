@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio Website</title>
+        <link rel="stylesheet" href="sytle.css">
+    </head>
+    <body>
+        <!-- Navigation Bar -->
+        <nav>
+            <div id="home">
+                <!-- Left side Information -->
+                <div class="profile_name">
+                    Emmanuel Adebayo
+                    <div class="contact_info">
+                        <img src="html_finalprojimages/envelope.png" alt="https://icons8.com/icon/124377/circled-envelope"/> 
+                        coder@gmail.com
+                    </div>
+                    <div style="clear:both;"></div>
+                    <div class="contact_info">
+                        <img src="html_finalprojimages/phone.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+                        +13456764598
+                    </div>
+                </div>
+                <!-- Right side information -->
+                <div class="topdiv">
+                    <a class="topmenu" href="#about-me">About Me</a>
+                    <a class="topmenu" href="#skills">Skills</a>
+                    <a class="topmenu" href="#projects">Projects</a>
+                    <a class="topmenu" href="#recommendations">Recommendations</a>
+                </div>
+            </div>
+        </nav>
+
+
+        <!-- About Me Section -->
+        <section id="about-me" class="container">
+            <div>
+                <img src="./html_finalprojimages/profile_img.svg" class="profile_image">
+                <!-- <img src="https://miro.medium.com/max/1400/1*qdAW1TjCN57h1lbuuzvchg.gif" class="profile_image"/> -->
+                <!-- <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="200px" class="profile_image" /> -->
+
+            </div>
+
+            <div>
+                <h1>
+                    Hi, I'm Emmanuel <img src="html_finalprojimages/waving-hand.png" width="60px"/>  
+                </h1>
+                <p>
+                    I am a Ph.D. candidate in Applied Mathematics at the University of Delaware with a growing passion for software engineering.
+                    I specialize in numerical modeling, data-driven algorithms, and Inverse Problems.
+                    Through the IBM Full Stack Software Developer Certificate, I'm gaining hands-on experience in building modern web applications using HTML, CSS, and JavaScript.
+                    This portfolio is where I mix math, creativity, and code — welcome!
+                </p>
+            </div>
+        </section>
+
+
+        <!-- Skills Section -->
+        <section id="skills">
+            <h2> Skills </h2>
+            <div style="clear:both;"></div>
+
+            <div class="all_skills">
+                <!-- Skill 1 -->
+                <div class="skill">
+                    <img src="html_finalprojimages/html5.png">
+                    <h6> HTML </h6>
+                    <p> 2 years of experience</p>
+                </div>
+                <!-- Skill 2 -->
+                 <div class="skill">
+                    <img src="html_finalprojimages/js.jpeg">
+                    <h6> JavaScript </h6>
+                    <p> 2 months of experience</p>
+                </div>
+                <!-- Skill 3 -->
+                 <div class="skill">
+                    <img src="html_finalprojimages/CSS3.png">
+                    <h6> CSS </h6>
+                    <p> 2 years of experience</p>
+                </div>
+                <!-- Skill 4 -->
+                 <div class="skill">
+                    <img src="html_finalprojimages/Matlab_Logo1.png">
+                    <h6> MATLAB </h6>
+                    <p> 4 years of experience</p>
+                </div>
+                <!-- Skill 5 -->
+                 <div class="skill">
+                    <img src="html_finalprojimages/Python-logo.png">
+                    <h6> Python </h6>
+                    <p> 3 years of experience</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects">
+            <h2>
+                Projects
+            </h2>
+            <div style="clear:both;"></div>
+            <div id="projects-container" class="projects-container">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <h3>Image Processing and Transformation</h3>
+                    <ul>
+                        <li>Developed functions for image reduction and expansion, implemented Gaussian pyramids, and constructed Laplacian
+                            pyramids which was used for Image Blending. Achieved smoother transitions in blended images, reducing visible seams by
+                            80-90%, using multi-scale blending with Laplacian pyramids</li>
+                    </ul>
+                </div>
+                <hr>
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <h3>Numerical Analysis of 1D Heat Equation using Finite Difference Schemes</h3>
+                    <ul>
+                        <li>
+                            Analyzed and implemented Crank-Nicolson, Foward Euler, and centered difference schems for 1D heat equation using finite
+                            difference methods, focusing on stability, consistency, and convergence. Code Published on <a href="https://www.mathworks.com/matlabcentral/fileexchange/176448-finite-difference-implementation-in-matlab"> Matlab Central. </a> 
+                        </li>
+                        <li>
+                            Work parallels option pricing models in quantitative finance (e.g., Black–Scholes PDE), where stability and accuracy are
+                            critical for risk evaluation.
+                        </li>
+                    </ul>
+                </div>
+                <hr>
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <h3>One Algorithm Matching Problem</h3>
+                    <ul>
+                        <li>
+                            Collaborated with a team to develop a robust, user-friendly algorithm aimed at maximizing effective matches between
+                            mentors and mentees. We achieved a 90% matching accuracy. News on <a href="https://www.udel.edu/udaily/2025/february/grad-leap-graduate-student-mentorship-program/">UDaily</a> 
+                        </li>
+                    </ul>
+                </div>
+                <hr>
+                <!-- Project 4 -->
+                <div class="project-card">
+                    <h3>Matrix Factorization Techniques for Recommendation Systems based on Bipartite Graph</h3>
+                    <ul>
+                        <li>
+                            Applied collaborative filtering methods to address the challenges of bipartite graph structures
+                        </li>
+                        <li>
+                            Implemented matrix completion and stochastic gradient descent algorithms for efficient recommendation generation used in
+                            NETFLIX challenge.      
+                        </li>
+                    </ul>
+                </div>
+                <hr>
+                <!-- Project 5 -->
+                <div class="project-card">
+                    <h3>Image Compression and De-blurring</h3>
+                    <ul>
+                        <li>
+                            Executed image compression utilizing Singular Value Decomposition (SVD) and implemented effective de-blurring techniques
+                            using Tikhonov Regularization in MATLAB. Successfully reduced image file size by 78% without affecting the image quality.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </section>
+
+
+        <!-- Recommendations Section -->
+        <section id="recommendations">
+            <h2>Recommendations</h2>
+            <div style="clear:both;"></div>
+            <div class="all_recommendations" id="all_recommendations">
+                <!-- Recommendation 1 -->
+                <div class="recommendation">
+                    <span>&#8220;</span>
+                    Emmanuel is a fast learner with a strong analytical mind. 
+                    He asks thoughtful questions, collaborates well, and takes initiative — showing great potential for leadership in tech.
+                    <span>&#8221;</span>
+                </div>
+                <!-- Recommendation 2 -->
+                <div class="recommendation">
+                    <span>&#8220;</span>
+                    I worked alongside Emmanuel during the early phase of our project, which involved web development.
+                    He is a dedicated contributor with deep domain knowledge.
+                    Emmanuel will be a valuable asset to any team or organization!
+                    <span>&#8221;</span>
+                </div>
+                <!-- Recommendation 3 -->
+                <div class="recommendation">
+                    <span>&#8220;</span>
+                    Working with Emmanuel has been an outstanding experience.
+                    He is highly knowledgeable and consistently goes the extra mile to ensure quality.
+                    For future projects, I.d gladly work with him again.
+                    <span>&#8221;</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Recommendation Form -->
+        <section id="contact">
+            <div class="flex_center">
+                <fieldset>
+                    <legend class="introduction"> Leave a Recommendation</legend>
+                    <input type="text" placeholder="Name (optional)"> <br/>
+                    <textarea id="new_recommendation" cols="500" rows="10" placeholder="Messages"></textarea>
+                    <div class="flex_center">
+                        <button id="recommend_btn" onclick="addRecommendation()"> Submit</button>
+                    </div>
+                </fieldset>
+            </div>
+        </section>
+
+        <div class="iconbutton">
+            <a href="#home">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" width="63px">
+                 <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+            </a>
+        </div>
+
+        <div class="popup" id="popup" class="flex_center">
+            <img src="html_finalprojimages/checkmark--outline.svg"/>
+            <h3> Thanks for leaving a recommendation! </h3>
+            <button onclick="showPopup(false)"> Ok </button>
+        </div>
+
+        <script src="script.js"></script>    
+    </body>
+</html>
